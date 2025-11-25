@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "programs/token_vault",
+]
+
+[profile.release]
+overflow-checks = true

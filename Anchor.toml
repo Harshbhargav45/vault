@@ -1,0 +1,10 @@
+[programs.devnet]
+token_vault = "BwgP9zXRVRtzmZszAGtTPEGnFpuEKrMLnGYfibCYgmU4"
+
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "echo 'No tests yet'"
