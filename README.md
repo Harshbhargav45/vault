@@ -24,7 +24,7 @@ Tokens were successfully minted and locked into the vault.
 * As a user, I want my funds to remain non-custodial and verifiable on-chain.
 * As a developer, I want a reusable vault primitive for staking, escrow, and game rewards.
 
-## 🧠 Architecture Diagram
+## Architecture diagram 
 Assests/Screenshot_20251215_213949_Chrome.jpg
 
 ### Architecture Overview
