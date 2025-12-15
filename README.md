@@ -107,9 +107,4 @@ vault/
 
 Run tests with:
  anchor test
-```bash
-a
 
-
-| **Client** | TypeScript / Node.js |
-| **Network** | Solana Devnet |
