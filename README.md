@@ -7,11 +7,6 @@ This vault allows users to deposit (lock) custom SPL tokens into a PDA-controlle
 
 ## 🚀 Deployment Details (Devnet)
 
-| Component | Value |
-| :--- | :--- |
-| **Program ID** | `BwgP9zXRVRtzmZszAGtTPEGnFpuEKrMLnGYfibCYgmU4` |
-| **Custom Token Mint** | `7sKE2TnxK1ffqEKLbu8sShAfxu9N53yCSgmaNLaCVzwk` |
-| **Network** | Solana Devnet |
 
 ## 📜 Proof of Work
 
@@ -33,7 +28,7 @@ Tokens were successfully minted and locked into the vault.
 
 The following diagram represents the exact architecture implemented in this program.
 
-**🔗 Excalidraw Link (Editable):**
+**architecture diagram**
 [https://excalidraw.com/#json=d4iKHm9QbUCPuyAcNO01G,Ur5YlfC7-PMlmx7zus5IxQ](https://excalidraw.com/#json=d4iKHm9QbUCPuyAcNO01G,Ur5YlfC7-PMlmx7zus5IxQ)
 
 ### Architecture Overview
@@ -99,46 +94,21 @@ vault/
 ├── Anchor.toml
 ├── package.json
 └── README.md
+```
 
-🧪 Testing
+## 🧪 Testing
 
-Tests written in: TypeScript
-
-Test Framework: Anchor
-
-Covers:
-
-Token deposit
-
-Token withdrawal
-
-PDA-based authority signing
+- **Tests written in:** TypeScript
+- **Test Framework:** Anchor
+- **Covers:**
+  - Token deposit
+  - Token withdrawal
+  - PDA-based authority signing
 
 Run tests with:
-
-
-
-Bash
-
-
-
-anchor test
-
-🌱 Future Extensions
-
-⏳ Time-locked vaults
-
-🤝 Multi-user shared vaults
-
-🎮 Game reward escrow
-
-📊 Frontend integration
-
-🪙 Staking & yield logic
-
-⭐ If this helped you understand Solana PDAs and SPL vaults, give the repo a star.
-
-Happy building on Solana 🚀
+ anchor test
+```bash
+a
 
 
 | **Client** | TypeScript / Node.js |
