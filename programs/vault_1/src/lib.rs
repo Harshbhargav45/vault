@@ -105,7 +105,6 @@ pub struct Withdraw<'info> {
         seeds = [b"vault-authority", signer.key().as_ref()],
         bump
     )]
-    /// CHECK: PDA derived from fixed seeds, used only as token authority
     pub vault_authority: UncheckedAccount<'info>,
 
     pub token_program: Program<'info, Token>,
