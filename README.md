@@ -25,11 +25,7 @@ Tokens were successfully minted and locked into the vault.
 * As a developer, I want a reusable vault primitive for staking, escrow, and game rewards.
 
 ## 🧠 Architecture Diagram
-
-The following diagram represents the exact architecture implemented in this program.
-
-**architecture diagram**
-[https://excalidraw.com/#json=d4iKHm9QbUCPuyAcNO01G,Ur5YlfC7-PMlmx7zus5IxQ](https://excalidraw.com/#json=d4iKHm9QbUCPuyAcNO01G,Ur5YlfC7-PMlmx7zus5IxQ)
+Assests/Screenshot_20251215_213949_Chrome.jpg
 
 ### Architecture Overview
 
